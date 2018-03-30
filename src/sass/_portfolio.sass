@@ -1,0 +1,137 @@
+.last-item
+    height: 10px
+    opacity: 0
+.portfolio-page
+    height: 100%
+    width: 85%
+    right: 0
+    position: absolute
+    z-index: 1
+    display: flex
+    flex-direction: column
+    overflow: scroll
+    -webkit-overflow-scrolling: touch
+    background-image: url(./img/dust_scratches.png)
+    background-repeat: repeat
+    .portfolio-header
+        font-size: 2rem
+        font-family: 'Roboto'
+        color: white
+
+        display: flex
+        align-items: center
+        width: 100%
+        height: 10%
+        background-color: #6fcaca
+        
+    span
+        margin-left: 5%
+
+    .portfolio-wrp
+        min-width: 200px
+        height: 90%
+
+
+.portfolio-item-list
+    height: 100%
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    width: 80%
+    margin: 0 auto
+    .portfolio-item
+        width: 100%
+        height: 35%
+        position: relative
+        margin: 5% 0 5% 0
+        &:before
+            box-shadow: 9px 9px 20px -9px rgba(0,0,0,0.56)
+            position: absolute
+            
+            display: block
+            background-color: hsla(0, 0%, 82%, 0.68)
+            content: ' '
+            width: 56%
+            height: 100%   
+            z-index: -1
+        .img-wrp
+            box-shadow: 24px 16px 54px -9px rgba(0,0,0,0.67)
+            will-change: transform
+            position: absolute
+            width: 50%
+            height: 90%
+            overflow: hidden
+            transition: all 300ms
+            transition-delay: 50ms
+            img
+                vertical-align: middle
+                width: 100%
+                flex: 1
+                z-index: 3
+            
+        figcaption
+            box-shadow: 20px 18px 63px -9px rgba(0,0,0,0.67)
+            z-index: 1
+            width: 45%
+            height: 80%
+            position: absolute
+            background-color: white
+            display: flex
+            flex-direction: column
+            justify-content: space-evenly
+            h3 
+                margin: 0
+                font-size: 1.8em
+                color: rgba(118, 111, 111, 0.94)
+            .caption-text
+                color: rgba(118, 111, 111, 0.84)
+            a 
+                text-decoration: none
+                color: #6fcaca
+                font-size: 1.3em
+                font-weight: 600
+                width: 40%
+                margin: 0 auto
+                transition: color 200ms
+                &:hover
+                    transition: color 200ms
+                    color: #f37373
+        &:last-child
+            margin-bottom: 10%               
+    .first
+        perspective: 800px
+        &:before
+            top: 0
+            left: 10%
+        div
+            top: 5%
+            right: 0
+            &:hover
+                vertical-align: middle
+                will-change: transform
+                transition-delay: 50ms
+                transform: rotateY(-5deg)
+                transition: all 300ms
+        figcaption
+            top: 10% 
+            left: 9%
+    .second
+        perspective: 800px
+        &:before
+            top: 0
+            right: 10%
+        div
+            top: 5%
+            left: 0
+            &:hover
+                vertical-align: middle
+                will-change: transform
+                transition-delay: 50ms
+                transform: rotateY(5deg)
+                transition: all 300ms
+        figcaption
+            top: 10% 
+            right: 9%
+            
+//media
+@import './media/_portfolio-media.sass'

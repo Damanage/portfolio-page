@@ -1,0 +1,176 @@
+@media only screen and (max-width: 600px)
+    
+    .header-wrp
+        overflow: visible
+        width: 100%
+        height: 11%
+        flex-direction: row
+        .header-sub-wrp
+            display: flex
+            align-items: center
+            .header-logo
+                flex-direction: row
+                width: 100% 
+                justify-content: flex-start
+                .menu-icon
+                    flex: 1
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    i   
+                        min-width: 20px
+                        cursor: pointer
+                        padding: 5%
+
+                .logo-text
+                    flex: 5
+                    min-width: 30%
+                    span 
+                        display: block
+                        padding: 0
+                        margin: 0
+                        font-size: 12px
+                    .name
+                        display: inline-block
+                        padding-right: 5px
+                        font-size: 1.5rem
+            .nav-mobile
+                height: 100%
+                .nav-wrapper 
+                    position: fixed
+                    left: 0
+                    top: 0
+                    z-index: 5
+                    padding-top: 15%
+                    width: 30%
+                    height: 100vh
+                    background-color: white
+                .nav-overlay
+                    top: 0
+                    left: 0
+                    position: absolute
+                    width: 100vh
+                    background-color: hsla(0, 0%, 6%, 0.62)
+                    height: 100vh
+                    z-index: 4
+                    will-change: transform
+    .nav-mobile
+        transform: translateX(-250%)
+        transition: all 380ms
+        will-change: transform
+        position: absolute
+        top: 0
+        left: 0
+        height: 100vh
+        width: 100vh
+
+    .nav-mobile-active
+        transform: translateX(0)
+        transition: all 380ms
+        will-change: transform
+
+    .logo-text:after
+        display: none
+    
+    .menu-icon
+        color: rgba(118, 111, 111, 0.84)
+        transition: all 200ms
+        &:active
+            
+            transform: scale(1.3)
+            transition: all 200ms
+    
+    
+    .spec
+        font-size: 14px
+//phone landscape
+@media only screen and (min-width: 600px) and (max-width: 750px)
+    .logo
+        display: none
+    .header-wrp
+        width: 22%
+        box-shadow: 2px -1px 20px -8px rgba(0, 0, 0, 0.75)
+
+    .header-sub-wrp
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+
+    .header-logo
+        justify-content: flex-start
+
+    .logo-text
+        .name
+            font-size: 1.3em
+        span 
+            font-size: .9em
+        &:after
+            margin-top: 10px
+
+    .logo-text:after
+        display: none
+
+    .header-menu
+        font-size: 15px
+        padding: 6px
+//tablets portret
+@media only screen and (min-width: 750px) and (max-width: 850px)
+    .header-wrp
+        width: 22%
+        box-shadow: -3px -1px 18px 1px rgba(0, 0, 0, 0.75)
+
+    .header-logo
+        justify-content: flex-start
+    .logo
+        display: none
+
+    .logo-text
+        .name
+            font-size: 1.3em
+        span 
+            font-size: .9em
+        &:after
+            margin-top: 10px
+
+    .header-menu
+        font-size: 21px
+        padding: 16px
+        i
+            width: 25%
+//tablet landscape
+@media only screen and (min-width: 850px) and (max-width: 1050px)
+    .header-wrp
+        box-shadow: -3px -1px 18px 1px rgba(0, 0, 0, 0.75)
+    .header-logo
+        justify-content: flex-start
+    .logo
+        display: none
+    .logo-text
+        .name
+            font-size: 1.2em
+        span 
+            font-size: .8em
+        &:after
+            margin-top: 5px
+
+// @media only screen and (min-width: 600px) and (max-width: 750px)
+//     .header-wrp
+//         background-color: yellow
+    
+
+// .header-wrp:active .nav-mobile
+//     display: block
+
+// .nav-mobile:hover
+//     display: block
+
+// .header-logo:after
+//     content: none
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+    
+// /* Medium devices (landscape tablets, 768px and up) */
+
+
+// /* Large devices (laptops/desktops, 992px and up) */
+//  @media only screen and (min-width: 992px)
