@@ -45,7 +45,7 @@ class App extends Component {
 
           <div className="App">
           
-            <Route exact path="/" render={() => <Redirect to="/home" />} />
+            <Route exact path="/" render={() => <Redirect to="/portfolio-page/home" />} />
 
             
           
@@ -63,11 +63,11 @@ class App extends Component {
 
                 <CSSTransition  key={location.key} classNames="fade" timeout={800}>  
                   <Switch location={location}>
-                    <Route exact path='/home' render={()=><Home headerStatusChange={this.headerStatusChange}/>}/>
-                    <Route exact path='/about' render={()=><About aboutRender={this.aboutRender}/>}/>
-                    <Route exact path='/portfolio' render={()=><Portfolio aboutRender={this.aboutRender}/>} />
-                    <Route exact path='/contacts' render={()=><Contacts aboutRender={this.aboutRender}/>} />
-                    <Route exact path='/resume' render={()=><Resume aboutRender={this.aboutRender}/>} />
+                    <Route exact path='/portfolio-page/home' render={()=><Home headerStatusChange={this.headerStatusChange}/>}/>
+                    <Route exact path='/portfolio-page/about' render={()=><About aboutRender={this.aboutRender}/>}/>
+                    <Route exact path='/portfolio-page/portfolio' render={()=><Portfolio aboutRender={this.aboutRender}/>} />
+                    <Route exact path='/portfolio-page/contacts' render={()=><Contacts aboutRender={this.aboutRender}/>} />
+                    <Route exact path='/portfolio-page/resume' render={()=><Resume aboutRender={this.aboutRender}/>} />
                     <Route component={NotFound}/> 
                   </Switch>
                 </CSSTransition>
