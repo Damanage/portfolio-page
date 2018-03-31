@@ -65,7 +65,7 @@ class App extends Component {
                   <Switch location={location}>
                     <Route exact path='/portfolio-page/home' render={()=><Home headerStatusChange={this.headerStatusChange}/>}/>
                     <Route exact path='/portfolio-page/about' render={()=><About aboutRender={this.aboutRender}/>}/>
-                    <Route exact path='/portfolio-page/portfolio' render={()=><Portfolio aboutRender={this.aboutRender}/>} />
+                    <Route exact path='/portfolio-page/Portfolio' render={()=><Portfolio aboutRender={this.aboutRender}/>} />
                     <Route exact path='/portfolio-page/contacts' render={()=><Contacts aboutRender={this.aboutRender}/>} />
                     <Route exact path='/portfolio-page/resume' render={()=><Resume aboutRender={this.aboutRender}/>} />
                     <Route component={NotFound}/> 

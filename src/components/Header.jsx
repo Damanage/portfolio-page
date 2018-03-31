@@ -31,7 +31,7 @@ class Header extends React.Component{
         if(/about/.test(nextProps.currentUrl) === true){
             this.colorPicker('.about-header');
         }
-        else if(/portfolio/.test(nextProps.currentUrl) === true){
+        else if(/Portfolio/.test(nextProps.currentUrl) === true){
             this.colorPicker('.portfolio-header');
         }
         else if(/contacts/.test(nextProps.currentUrl) === true){

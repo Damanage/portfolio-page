@@ -19,7 +19,7 @@ class Home extends React.Component {
                     {homeData.test}
                 </div>
 
-                <NavLink to='/about' className='next-btn-wrp'>
+                <NavLink to='/portfolio-page/about' className='next-btn-wrp'>
                     <i className="material-icons next-button">arrow_forward</i>
                 </NavLink>
             </div>
