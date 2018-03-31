@@ -45,7 +45,7 @@ class App extends Component {
 
           <div className="App">
           
-            <Route exact path="/" render={() => <Redirect to="/portfolio-page/home" />} />
+            <Route exact path="/portfolio-page/" render={() => <Redirect to="/portfolio-page/home" />} />
 
             
           
