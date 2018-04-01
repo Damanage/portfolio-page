@@ -12,6 +12,8 @@ import Portfolio from './components/Portfolio';
 import Contacts from './pages/Contacts';
 import Resume from './pages/Resume';
 
+//data
+import {techData, homeData, portfolioData} from './data/tech-data.js';
 
 
 // pages components
@@ -63,9 +65,9 @@ class App extends Component {
 
                 <CSSTransition  key={location.key} classNames="fade" timeout={800}>  
                   <Switch location={location}>
-                    <Route exact path='/portfolio-page/home' render={()=><Home headerStatusChange={this.headerStatusChange}/>}/>
-                    <Route exact path='/portfolio-page/about' render={()=><About aboutRender={this.aboutRender}/>}/>
-                    <Route exact path='/portfolio-page/Portfolio' render={()=><Portfolio aboutRender={this.aboutRender}/>} />
+                    <Route exact path='/portfolio-page/home' render={()=><Home headerStatusChange={this.headerStatusChange} homeData={homeData}/>}/>
+                    <Route exact path='/portfolio-page/about' render={()=><About aboutRender={this.aboutRender} techData={techData}/>}/>
+                    <Route exact path='/portfolio-page/Portfolio' render={()=><Portfolio aboutRender={this.aboutRender} portfolioData={portfolioData}/>} />
                     <Route exact path='/portfolio-page/contacts' render={()=><Contacts aboutRender={this.aboutRender}/>} />
                     <Route exact path='/portfolio-page/resume' render={()=><Resume aboutRender={this.aboutRender}/>} />
                     <Route component={NotFound}/> 

@@ -119,5 +119,34 @@ const techData = [
         ]
     }
 ]
-
-export default techData;
+let homeData = {
+    test: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Nulla voluptates voluptatibus, expedita amet dolor libero quam laudantium facilis.
+        Aperiam reprehenderit, saepe alias nemo maxime praesentium.
+        Architecto maiores quod nisi facere?
+        
+        `
+};
+const portfolioData = [
+    {
+        id: 1,
+        url: '/img/duck.jpg',
+        caption: 'Project one'
+    },
+    {
+        id: 2,
+        url: '/img/duck.jpg',
+        caption: 'Project two'
+    },
+    {
+        id: 3,
+        url: '/img/duck.jpg',
+        caption: 'Project three'
+    },
+    {
+        id: 4,
+        url: '/img/duck.jpg',
+        caption: 'Project four'
+    }
+];
+export  {homeData, techData, portfolioData};

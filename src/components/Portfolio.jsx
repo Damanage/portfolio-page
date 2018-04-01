@@ -1,6 +1,6 @@
 import React from 'react';
 import PortfolioItem from './PortfolioItem';
-import portfolioData from '../data/portfolioData.js';
+
 
 class Portfolio extends React.Component {
     componentWillMount({...props}){
@@ -16,7 +16,7 @@ class Portfolio extends React.Component {
         
                 <div className="portfolio-wrp">
                     <div className="portfolio-item-list">
-                        {portfolioData.map(item => 
+                        {this.props.portfolioData.map(item => 
                             <PortfolioItem
                                 key={item.id}
                                 caption={item.caption}

@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
-import homeData from '../data/homeData.js';
+
 
 class Home extends React.Component {  
 
@@ -16,7 +16,7 @@ class Home extends React.Component {
         return(
             <div className="home-wrapper">
                 <div className="home">
-                    {homeData.test}
+                    {this.props.homeData.test}
                 </div>
 
                 <NavLink to='/portfolio-page/about' className='next-btn-wrp'>
