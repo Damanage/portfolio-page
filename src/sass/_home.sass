@@ -9,7 +9,7 @@
 
     display: flex
     flex-direction: column
-    justify-content: space-around
+    justify-content: space-between
 
     background-color: white
     background-image: url(./img/landscape-1.png)
@@ -28,7 +28,8 @@
 
 .next-btn-wrp
     color: #c2bfbf
-    .next-button
+    margin-bottom: 5%
+    .next-button  
         border-radius: 30px
         font-size: 3rem
         text-decoration: none
@@ -39,6 +40,27 @@
             color: white
             background-color: rgba(0, 0, 0, 1)
             transition: background-color 300ms
+.lang-set
+    display: flex
+    justify-content: flex-end
+    width: 100%
+    span 
+        display: flex
+        align-items: center
+        color: hsla(0, 0%, 49%, 0.6)
+        align-items: center
+        font-size: 1.4em
+    .lang-logo
+        width: 3%
+        transition: transform 200ms
+        transition-delay: 50ms
+        img 
+            width: 100%
+        &:hover
+            transform: scale(.8)
+            transition: transform 200ms
+            transition-delay: 50ms
+
        
 //home-page media-queries
 @import './media/_home-media'

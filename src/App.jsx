@@ -26,7 +26,8 @@ class App extends Component {
     this.state = {
       isMount: false,
       currentUrl: window.location.href,
-      totalData: totalDataEN
+      totalData: totalDataEN,
+      currentLang: 'EN'
     }
 
     this.headerStatusChange = this.headerStatusChange.bind(this);
@@ -46,9 +47,9 @@ class App extends Component {
 
   languageSetMachine(){
     if(this.state.totalData === totalDataEN)
-      this.setState({totalData: totalDataRU})
+      this.setState({totalData: totalDataRU, currentLang: 'RU'})
     else if(this.state.totalData === totalDataRU)
-      this.setState({totalData: totalDataEN})
+      this.setState({totalData: totalDataEN, currentLang: 'EN'})
   }
 
   render() {
@@ -83,6 +84,7 @@ class App extends Component {
                           headerStatusChange={this.headerStatusChange} 
                           homeData={this.state.totalData.homeData} 
                           language={this.languageSetMachine}
+                          currentLang={this.state.currentLang}
                         />
                       }/>
 
