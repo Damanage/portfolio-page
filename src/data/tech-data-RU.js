@@ -19,7 +19,7 @@ import psLogo from '../img/ps.png';
 import illustrator from '../img/illustartor.png';
 import gitLogo from '../img/git.png';
 import bower from '../img/bower.png';
-const totalDataEN = {
+const totalDataRU = {
     techData : [
         {
             id:1,
@@ -121,7 +121,7 @@ const totalDataEN = {
     ],
 
     homeData : {
-        test: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        test: `Лорем Ипсум Хуитцум Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Nulla voluptates voluptatibus, expedita amet dolor libero quam laudantium facilis.
             Aperiam reprehenderit, saepe alias nemo maxime praesentium.
             Architecto maiores quod nisi facere?
@@ -133,12 +133,12 @@ const totalDataEN = {
         {
             id: 1,
             url: '/img/duck.jpg',
-            caption: 'Project one'
+            caption: 'Мишаня'
         },
         {
             id: 2,
             url: '/img/duck.jpg',
-            caption: 'Project two'
+            caption: 'Большой джо майбах'
         },
         {
             id: 3,
@@ -152,4 +152,4 @@ const totalDataEN = {
         }
     ]
 };
-export  default totalDataEN;
+export  default totalDataRU;

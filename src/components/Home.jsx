@@ -18,7 +18,7 @@ class Home extends React.Component {
                 <div className="home">
                     {this.props.homeData.test}
                 </div>
-
+                <button onClick={this.props.language} >Russian</button>
                 <NavLink to='/portfolio-page/about' className='next-btn-wrp'>
                     <i className="material-icons next-button">arrow_forward</i>
                 </NavLink>

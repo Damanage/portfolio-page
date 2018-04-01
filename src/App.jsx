@@ -13,8 +13,8 @@ import Contacts from './pages/Contacts';
 import Resume from './pages/Resume';
 
 //data
-import totalData from './data/tech-data.js';
-
+import totalDataEN from './data/tech-data.js';
+import totalDataRU from './data/tech-data-RU.js';
 
 // pages components
 import NotFound from './pages/NotFound';
@@ -25,21 +25,32 @@ class App extends Component {
 
     this.state = {
       isMount: false,
-      currentUrl: window.location.href
+      currentUrl: window.location.href,
+      totalData: totalDataEN
     }
 
     this.headerStatusChange = this.headerStatusChange.bind(this);
     this.aboutRender = this.aboutRender.bind(this);
+    this.languageSetMachine = this.languageSetMachine.bind(this);
   }
+
 
 
   headerStatusChange(){
     this.setState({isMount: !this.state.isMount});
   }
+
   aboutRender(){
     this.setState({currentUrl: window.location.href});
   }
- 
+
+  languageSetMachine(){
+    if(this.state.totalData === totalDataEN)
+      this.setState({totalData: totalDataRU})
+    else if(this.state.totalData === totalDataRU)
+      this.setState({totalData: totalDataEN})
+  }
+
   render() {
     return (
       <Router>
@@ -65,20 +76,24 @@ class App extends Component {
 
                 <CSSTransition  key={location.key} classNames="fade" timeout={800}>  
                   <Switch location={location}>
-                  
+
                     <Route exact path='/portfolio-page/home' 
                       render={()=>
-                        <Home headerStatusChange={this.headerStatusChange} homeData={totalData.homeData}/>
+                        <Home 
+                          headerStatusChange={this.headerStatusChange} 
+                          homeData={this.state.totalData.homeData} 
+                          language={this.languageSetMachine}
+                        />
                       }/>
 
                     <Route exact path='/portfolio-page/about' 
                       render={()=>
-                        <About aboutRender={this.aboutRender} techData={totalData.techData}/>
+                        <About aboutRender={this.aboutRender} techData={this.state.totalData.techData}/>
                       }/>
 
                     <Route exact path='/portfolio-page/Portfolio'
                       render={()=>
-                        <Portfolio aboutRender={this.aboutRender} portfolioData={totalData.portfolioData}/>
+                        <Portfolio aboutRender={this.aboutRender} portfolioData={this.state.totalData.portfolioData}/>
                       }/>
 
                     <Route exact path='/portfolio-page/contacts'render={()=> <Contacts aboutRender={this.aboutRender}/> }/>
