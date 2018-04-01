@@ -57,9 +57,9 @@ class Header extends React.Component{
         return(
             <div className='header-wrp'>
                 {this.state.width <= 600 ?
-                <HeaderMobile  textColor={this.state.textColor}/> 
+                <HeaderMobile headerData={this.props.headerData} textColor={this.state.textColor}/> 
                 :
-                <HeaderDesktop textColor={this.state.textColor}/>}    
+                <HeaderDesktop headerData={this.props.headerData} textColor={this.state.textColor}/>}    
             </div>
         )
     }

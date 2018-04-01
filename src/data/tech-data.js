@@ -20,6 +20,13 @@ import illustrator from '../img/illustartor.png';
 import gitLogo from '../img/git.png';
 import bower from '../img/bower.png';
 const totalDataEN = {
+    headerData : {
+        hdr0: 'Home',
+        hdr1: 'Skills',
+        hdr2: 'Projects',
+        hdr3: 'Contacts',
+        hdr4: 'Resume'
+    },
     techData : [
         {
             id:1,

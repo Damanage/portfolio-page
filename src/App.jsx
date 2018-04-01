@@ -65,7 +65,7 @@ class App extends Component {
           
             <CSSTransition in={!this.state.isMount} key={location.key} classNames='test' timeout={500}>
               
-              {!this.state.isMount ? <Header currentUrl={this.state.currentUrl}/>:<div></div>}
+              {!this.state.isMount ? <Header headerData={this.state.totalData.headerData} currentUrl={this.state.currentUrl}/>:<div></div>}
 
             </CSSTransition> 
           

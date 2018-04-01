@@ -19,7 +19,16 @@ import psLogo from '../img/ps.png';
 import illustrator from '../img/illustartor.png';
 import gitLogo from '../img/git.png';
 import bower from '../img/bower.png';
+
 const totalDataRU = {
+    headerData : {
+        hdr0: 'Главная',
+        hdr1: 'Навыки',
+        hdr2: 'Портфолио',
+        hdr3: 'Контакты',
+        hdr4: 'Резюме'
+    },
+
     techData : [
         {
             id:1,
@@ -153,4 +162,5 @@ const totalDataRU = {
         }
     ]
 };
+
 export  default totalDataRU;
