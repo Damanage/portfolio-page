@@ -24,7 +24,7 @@ const totalDataRU = {
     headerData : {
         hdr0: 'Главная',
         hdr1: 'Навыки',
-        hdr2: 'Портфолио',
+        hdr2: 'Проэкты',
         hdr3: 'Контакты',
         hdr4: 'Резюме'
     },

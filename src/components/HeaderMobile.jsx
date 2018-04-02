@@ -14,7 +14,7 @@ class HeaderMobile extends React.Component{
         sideNav[0].classList.toggle('nav-mobile-active');
     }
 
-    render({headerData, ...props}){
+    render(){
         return(
             <div className="header-sub-wrp">
                 <div className="header-logo">
@@ -32,11 +32,11 @@ class HeaderMobile extends React.Component{
 
                 <nav className='nav-mobile'> 
                     <div className="nav-wrapper">
-                        <ToolBarLink exact to='/portfolio-page/home'  className='header-menu hdr-menu-1' icon='home'>{headerData.hdr0}</ToolBarLink>
-                        <ToolBarLink to='/portfolio-page/about'  className='header-menu hdr-menu-2' icon='person'>{headerData.hdr1}</ToolBarLink>
-                        <ToolBarLink to='/portfolio-page/Portfolio'  className='header-menu hdr-menu-3' icon='insert_photo'>{headerData.hdr2}</ToolBarLink>
-                        <ToolBarLink to='/portfolio-page/contacts'  className='header-menu hdr-menu-4' icon='record_voice_over'>{headerData.hdr3}</ToolBarLink>
-                        <ToolBarLink to='/portfolio-page/resume'  className='header-menu hdr-menu-5' icon='content_paste'>{headerData.hdr4}</ToolBarLink>                    
+                        <ToolBarLink exact to='/portfolio-page/home'  className='header-menu hdr-menu-1' icon='home'>{this.props.headerData.hdr0}</ToolBarLink>
+                        <ToolBarLink to='/portfolio-page/about'  className='header-menu hdr-menu-2' icon='person'>{this.props.headerData.hdr1}</ToolBarLink>
+                        <ToolBarLink to='/portfolio-page/Portfolio'  className='header-menu hdr-menu-3' icon='insert_photo'>{this.props.headerData.hdr2}</ToolBarLink>
+                        <ToolBarLink to='/portfolio-page/contacts'  className='header-menu hdr-menu-4' icon='record_voice_over'>{this.props.headerData.hdr3}</ToolBarLink>
+                        <ToolBarLink to='/portfolio-page/resume'  className='header-menu hdr-menu-5' icon='content_paste'>{this.props.headerData.hdr4}</ToolBarLink>                    
                     </div>
                     <div className="nav-overlay" onClick={this.menuShower}>
                     </div>  
