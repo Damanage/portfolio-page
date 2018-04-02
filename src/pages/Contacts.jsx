@@ -19,25 +19,33 @@ class Contacts extends React.Component{
                 <div className="contacts">
                     <div className="contact-list">
                         <div className="contact-item">
-                            <img src={git} alt=""/>
+                            <a rel="noopener noreferrer" target='_blank' href="https://github.com/Damanage">
+                                <img src={git} alt=""/>
+                            </a>
                             <div className="contact-text">
                                 Git
                             </div>
                         </div>
                         <div className="contact-item">
-                            <img src={linkenid} alt=""/>
+                            <a rel="noopener noreferrer" target='_blank' href="#">
+                                <img src={linkenid} alt=""/>
+                            </a>
                             <div className="contact-text">
                                 LinkedIn
                             </div>
                         </div>
                         <div className="contact-item">
-                            <img src={mail} alt=""/>
+                            <a rel="noopener noreferrer" target='_blank'>
+                                <img src={mail} alt=""/>
+                            </a>
                             <div className="contact-text">
                                 Email
                             </div>
                         </div>
                         <div className="contact-item">
-                            <img src={phone} alt=""/>
+                            <a rel="noopener noreferrer" target='_blank'>
+                                <img src={phone} alt=""/>
+                            </a>
                             <div className="contact-text">
                                 Phone
                             </div>
