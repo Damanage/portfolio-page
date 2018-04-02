@@ -141,22 +141,26 @@ const totalDataEN = {
         {
             id: 1,
             url: '/img/duck.jpg',
-            caption: 'Project one'
+            caption: 'Malibou',
+            link: 'https://damanage.github.io/PMalibou/'
         },
         {
             id: 2,
             url: '/img/duck.jpg',
-            caption: 'Project two'
+            caption: 'Savanah Digest',
+            link: 'https://damanage.github.io/Savanah-Digest-Page/'
         },
         {
             id: 3,
             url: '/img/duck.jpg',
-            caption: 'Project three'
+            caption: 'Somera Road',
+            link: 'https://damanage.github.io/Somera-Road/sonora.html'
         },
         {
             id: 4,
             url: '/img/duck.jpg',
-            caption: 'Project four'
+            caption: 'Project four',
+            link: 'second penis'
         }
     ]
 };

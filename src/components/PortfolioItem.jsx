@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PortfolioItem = ({ imgAlt, caption, imgLink, itemClass, ...props}) => {
+const PortfolioItem = ({ imgAlt, caption, imgLink, link, itemClass, ...props}) => {
     return(
         <figure className={itemClass}>
             <div className="img-wrp">
@@ -11,7 +11,7 @@ const PortfolioItem = ({ imgAlt, caption, imgLink, itemClass, ...props}) => {
                 <div className="caption-text">
                     text caption
                 </div>
-                <a href="https://damanage.github.io/Savanah-Digest-Page/" rel="noopener noreferrer" target='_blank'>Live Demo</a>
+                <a href={link} rel="noopener noreferrer" target='_blank'>Live Demo</a>
             </figcaption>
         </figure>
     )

@@ -39,7 +39,7 @@ class Contacts extends React.Component{
                                 <img src={mail} alt=""/>
                             </a>
                             <div className="contact-text">
-                                Email
+                                derongar@gmail.com
                             </div>
                         </div>
                         <div className="contact-item">
@@ -47,7 +47,7 @@ class Contacts extends React.Component{
                                 <img src={phone} alt=""/>
                             </a>
                             <div className="contact-text">
-                                Phone
+                                8(909)164-39-45
                             </div>
                         </div>
                     </div>
