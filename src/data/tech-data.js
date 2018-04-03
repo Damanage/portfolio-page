@@ -19,6 +19,10 @@ import psLogo from '../img/ps.png';
 import illustrator from '../img/illustartor.png';
 import gitLogo from '../img/git.png';
 import bower from '../img/bower.png';
+
+//portfolio
+import pmalibou from '../img/PMalibu.png';
+
 const totalDataEN = {
     headerData : {
         hdr0: 'Home',
@@ -27,6 +31,7 @@ const totalDataEN = {
         hdr3: 'Contacts',
         hdr4: 'Resume'
     },
+
     techData : [
         {
             id:1,
@@ -140,7 +145,7 @@ const totalDataEN = {
     portfolioData : [
         {
             id: 1,
-            url: '/img/duck.jpg',
+            url: pmalibou,
             caption: 'Malibou',
             link: 'https://damanage.github.io/PMalibou/'
         },

@@ -27,7 +27,7 @@ class Contacts extends React.Component{
                             </div>
                         </div>
                         <div className="contact-item">
-                            <a rel="noopener noreferrer" target='_blank' href="#">
+                            <a rel="noopener noreferrer" target='_blank'>
                                 <img src={linkenid} alt=""/>
                             </a>
                             <div className="contact-text">
