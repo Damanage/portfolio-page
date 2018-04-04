@@ -21,8 +21,8 @@ import gitLogo from '../img/git.png';
 import bower from '../img/bower.png';
 
 //portfolio
-import pmalibou from '../img/PMalibu.png';
-import sonora from '../img/SomeraLogo.png';
+// import pmalibou from '../img/PMalibu.png';
+// import sonora from '../img/SomeraLogo.png';
 import savannah from '../img/savannahLogo.png';
 
 const totalDataEN = {
@@ -147,21 +147,21 @@ const totalDataEN = {
     portfolioData : [
         {
             id: 1,
-            url: pmalibou,
+            url: '/img/PMalibu.png',
             caption: 'PMalibu',
             subcaption: 'Exclusive travel services',
             link: 'https://damanage.github.io/PMalibou/'
         },
         {
             id: 2,
-            url: savannah,
+            url: '/img/savannahLogo.png',
             caption: 'Savannah Digest',
             subcaption: 'Savannah digest demo-page',
             link: 'https://damanage.github.io/Savanah-Digest-Page/'
         },
         {
             id: 3,
-            url: sonora,
+            url: '/img/SomeraLogo.png',
             caption: 'Somera Road',
             subcaption: 'A commercial real estate investment firm',
             link: 'https://damanage.github.io/Somera-Road/sonora.html'
