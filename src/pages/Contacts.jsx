@@ -26,14 +26,6 @@ class Contacts extends React.Component{
                                 Git
                             </a>
                         </div>
-                        {/* <div className="contact-item">
-                            <a rel="noopener noreferrer" target='_blank'>
-                                <img src={linkenid} alt=""/>
-                            </a>
-                            <div className="contact-text">
-                                LinkedIn
-                            </div>
-                        </div> */}
                         <div className="contact-item">
                             <a href='mailto:derongar@gmail.com'>
                                 <img src={mail} alt=""/>
