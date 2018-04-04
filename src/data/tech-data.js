@@ -146,19 +146,22 @@ const totalDataEN = {
         {
             id: 1,
             url: pmalibou,
-            caption: 'Malibou',
+            caption: 'PMalibu',
+            subcaption: 'Exclusive travel services',
             link: 'https://damanage.github.io/PMalibou/'
         },
         {
             id: 2,
             url: '/img/duck.jpg',
             caption: 'Savanah Digest',
+            subcaption: 'Savanah digest demo-page',
             link: 'https://damanage.github.io/Savanah-Digest-Page/'
         },
         {
             id: 3,
             url: '/img/duck.jpg',
             caption: 'Somera Road',
+            subcaption: 'A commercial real estate investment firm',
             link: 'https://damanage.github.io/Somera-Road/sonora.html'
         },
         {

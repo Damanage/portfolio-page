@@ -20,6 +20,7 @@ class Portfolio extends React.Component {
                             <PortfolioItem
                                 key={item.id}
                                 caption={item.caption}
+                                subcaption={item.subcaption}
                                 imgLink={process.env.PUBLIC_URL + item.url}
                                 itemClass={ item.id % 2 === 0 ? "portfolio-item second" : "portfolio-item first" }
                                 link={item.link}
