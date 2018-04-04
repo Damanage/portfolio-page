@@ -1,8 +1,10 @@
 {
-  "main.css": "static/css/main.82d79c6c.css",
-  "main.css.map": "static/css/main.82d79c6c.css.map",
-  "main.js": "static/js/main.8538b0b3.js",
-  "main.js.map": "static/js/main.8538b0b3.js.map",
+  "main.css": "static/css/main.70a5c2e6.css",
+  "main.css.map": "static/css/main.70a5c2e6.css.map",
+  "main.js": "static/js/main.1843949d.js",
+  "main.js.map": "static/js/main.1843949d.js.map",
+  "static/media/PMalibu.png": "static/media/PMalibu.ba715e33.png",
+  "static/media/SomeraLogo.png": "static/media/SomeraLogo.4aa49e26.png",
   "static/media/babel.png": "static/media/babel.7c83c1a4.png",
   "static/media/bootstrap.png": "static/media/bootstrap.ad9fadbc.png",
   "static/media/bower.png": "static/media/bower.f22ed462.png",
@@ -17,6 +19,7 @@
   "static/media/logo.jpg": "static/media/logo.86c27786.jpg",
   "static/media/react-icon.png": "static/media/react-icon.4af927e2.png",
   "static/media/russia.png": "static/media/russia.7d85333c.png",
+  "static/media/savannahLogo.png": "static/media/savannahLogo.10400233.png",
   "static/media/webpack.png": "static/media/webpack.2acc9669.png",
   "static/media/yeti.png": "static/media/yeti.4b0c3988.png"
 }
