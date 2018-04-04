@@ -3,7 +3,7 @@ import React from 'react';
 import phone from '../img/phone.png'
 import mail from '../img/email.png'
 import git from '../img/github.png'
-import linkenid from '../img/linkedin.png'
+// import linkenid from '../img/linkedin.png'
 
 class Contacts extends React.Component{
     componentWillMount({...props}){
@@ -22,25 +22,25 @@ class Contacts extends React.Component{
                             <a rel="noopener noreferrer" target='_blank' href="https://github.com/Damanage">
                                 <img src={git} alt=""/>
                             </a>
-                            <div className="contact-text">
+                            <a rel="noopener noreferrer" target='_blank' className="contact-text" href='https://github.com/Damanage'>
                                 Git
-                            </div>
+                            </a>
                         </div>
-                        <div className="contact-item">
+                        {/* <div className="contact-item">
                             <a rel="noopener noreferrer" target='_blank'>
                                 <img src={linkenid} alt=""/>
                             </a>
                             <div className="contact-text">
                                 LinkedIn
                             </div>
-                        </div>
+                        </div> */}
                         <div className="contact-item">
-                            <a rel="noopener noreferrer" target='_blank'>
+                            <a href='mailto:derongar@gmail.com'>
                                 <img src={mail} alt=""/>
                             </a>
-                            <div className="contact-text">
+                            <a href='mailto:derongar@gmail.com' className="contact-text">
                                 derongar@gmail.com
-                            </div>
+                            </a>
                         </div>
                         <div className="contact-item">
                             <a rel="noopener noreferrer" target='_blank'>

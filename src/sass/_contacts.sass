@@ -37,10 +37,20 @@
                             transform: scale(1.1) rotateZ(13deg)
                             transition: all 200ms ease
                 .contact-text
-                    
+                    padding-bottom: 4px
+                    text-decoration: none
+                    text-align: left
                     display: block
                     margin-left: 2%
                     color: rgba(118, 111, 111, 0.95)
                     font-size: 1.4em
+                    transition: all 100ms
+                    transition-delay: 20ms
+                    &:hover
+                        color: #91dbdb
+                        width: auto
+                        border-bottom: 1px solid #91dbdb
+                        transition: all 100ms
+                        transition-delay: 20ms
 //media
 @import './media/_contacts-media.sass'

@@ -155,8 +155,8 @@ const totalDataEN = {
         {
             id: 2,
             url: savannah,
-            caption: 'Savanah Digest',
-            subcaption: 'Savanah digest demo-page',
+            caption: 'Savannah Digest',
+            subcaption: 'Savannah digest demo-page',
             link: 'https://damanage.github.io/Savanah-Digest-Page/'
         },
         {
