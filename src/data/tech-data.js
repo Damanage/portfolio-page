@@ -22,6 +22,8 @@ import bower from '../img/bower.png';
 
 //portfolio
 import pmalibou from '../img/PMalibu.png';
+import sonora from '../img/SomeraLogo.png';
+import savannah from '../img/savannahLogo.png';
 
 const totalDataEN = {
     headerData : {
@@ -152,14 +154,14 @@ const totalDataEN = {
         },
         {
             id: 2,
-            url: '/img/duck.jpg',
+            url: savannah,
             caption: 'Savanah Digest',
             subcaption: 'Savanah digest demo-page',
             link: 'https://damanage.github.io/Savanah-Digest-Page/'
         },
         {
             id: 3,
-            url: '/img/duck.jpg',
+            url: sonora,
             caption: 'Somera Road',
             subcaption: 'A commercial real estate investment firm',
             link: 'https://damanage.github.io/Somera-Road/sonora.html'
