@@ -23,7 +23,7 @@ import bower from '../img/bower.png';
 //portfolio
 // import pmalibou from '../img/PMalibu.png';
 // import sonora from '../img/SomeraLogo.png';
-import savannah from '../img/savannahLogo.png';
+// import savannah from '../img/savannahLogo.png';
 
 const totalDataEN = {
     headerData : {
@@ -147,30 +147,35 @@ const totalDataEN = {
     portfolioData : [
         {
             id: 1,
-            url: '/img/PMalibu.png',
+            url: '/img/PMalibuJPG.jpg',
             caption: 'PMalibu',
             subcaption: 'Exclusive travel services',
-            link: 'https://damanage.github.io/PMalibou/'
+            link: 'https://damanage.github.io/PMalibou/',
+            code_link: 'https://github.com/Damanage/PMalibou'
         },
         {
             id: 2,
-            url: '/img/savannahLogo.png',
+            url: '/img/savannahLogoJPG.jpg',
             caption: 'Savannah Digest',
             subcaption: 'Savannah digest demo-page',
-            link: 'https://damanage.github.io/Savanah-Digest-Page/'
+            link: 'https://damanage.github.io/Savanah-Digest-Page/',
+            code_link: 'https://github.com/Damanage/Savanah-Digest-Page'
         },
         {
             id: 3,
-            url: '/img/SomeraLogo.png',
+            url: '/img/SomeraLogoJPG.jpg',
             caption: 'Somera Road',
             subcaption: 'A commercial real estate investment firm',
-            link: 'https://damanage.github.io/Somera-Road/sonora.html'
+            link: 'https://damanage.github.io/Somera-Road/sonora.html',
+            code_link: 'https://github.com/Damanage/Somera-Road'
         },
         {
             id: 4,
-            url: '/img/duck.jpg',
-            caption: 'Project four',
-            link: 'second penis'
+            url: '/img/MyscorecardLogo.jpg',
+            caption: 'MyScorecard',
+            subcaption: 'MyScorecard app. Desktop demo page',
+            link: 'https://damanage.github.io/myscorecard/',
+            code_link: 'https://github.com/Damanage/golf/tree/master/app'
         }
     ]
 };

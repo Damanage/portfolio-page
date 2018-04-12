@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PortfolioItem = ({ imgAlt, subcaption, caption, imgLink, link, itemClass, ...props}) => {
+const PortfolioItem = ({ imgAlt, subcaption,code_link, caption, imgLink, link, itemClass, ...props}) => {
     return(
         <figure className={itemClass}>
             <div className="img-wrp">
@@ -11,7 +11,10 @@ const PortfolioItem = ({ imgAlt, subcaption, caption, imgLink, link, itemClass, 
                 <div className="caption-text">
                     {subcaption}
                 </div>
-                <a href={link} rel="noopener noreferrer" target='_blank'>Live Demo</a>
+                <div className="links">
+                    <a href={link} rel="noopener noreferrer" target='_blank'>Live Demo</a>
+                    <a href={code_link} rel="noopener noreferrer" target='_blank'>Code</a>
+                </div>
             </figcaption>
         </figure>
     )
