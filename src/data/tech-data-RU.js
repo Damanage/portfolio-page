@@ -131,34 +131,46 @@ const totalDataRU = {
 
     homeData : {
         lang: 'RU',
-        test: `Лорем Ипсум Хуитцум Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Nulla voluptates voluptatibus, expedita amet dolor libero quam laudantium facilis.
-            Aperiam reprehenderit, saepe alias nemo maxime praesentium.
-            Architecto maiores quod nisi facere?
-            
-            `
+        hi: 'Привет!',
+        name: 'Меня зовут Дмитрий',
+        test: `Я начинающий Front-end разработчик из Москвы`,
+        tx1: 'Я занимаюсь дизайном, версткой и реализацией JS логики ',
+        tx2: "Welcome at my portfolio page. Please take a look around!",
+        tx3: `Check out my projects or learn how to contact me`
     },
     
     portfolioData : [
         {
             id: 1,
-            url: '/img/duck.jpg',
-            caption: 'Мишаня'
+            url: '/img/PMalibuJPG.jpg',
+            caption: 'PMalibu',
+            subcaption: 'PMalibu Бюро путешествий. Таиланд.',
+            link: 'https://damanage.github.io/PMalibou/',
+            code_link: 'https://github.com/Damanage/PMalibou'
         },
         {
             id: 2,
-            url: '/img/duck.jpg',
-            caption: 'Большой джо майбах'
+            url: '/img/savannahLogoJPG.jpg',
+            caption: 'Savannah Digest',
+            subcaption: 'Savannah digest demo-page',
+            link: 'https://damanage.github.io/Savanah-Digest-Page/',
+            code_link: 'https://github.com/Damanage/Savanah-Digest-Page'
         },
         {
             id: 3,
-            url: '/img/duck.jpg',
-            caption: 'Project three'
+            url: '/img/SomeraLogoJPG.jpg',
+            caption: 'Somera Road',
+            subcaption: 'A commercial real estate investment firm',
+            link: 'https://damanage.github.io/Somera-Road/sonora.html',
+            code_link: 'https://github.com/Damanage/Somera-Road'
         },
         {
             id: 4,
-            url: '/img/duck.jpg',
-            caption: 'Project four'
+            url: '/img/MyscorecardLogo.jpg',
+            caption: 'MyScorecard',
+            subcaption: 'MyScorecard app. Desktop demo page',
+            link: 'https://damanage.github.io/myscorecard/',
+            code_link: 'https://github.com/Damanage/golf/tree/master/app'
         }
     ]
 };

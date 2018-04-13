@@ -33,7 +33,12 @@ class Home extends React.Component {
                     </div>
                 </div>
                 <div className="home">
-                    {this.props.homeData.test}
+                    <h3>{this.props.homeData.hi}</h3>
+                    <p>{this.props.homeData.name}</p>
+                    <p>{this.props.homeData.test}</p>
+                    <p>{this.props.homeData.tx1}</p>
+                    <p>{this.props.homeData.tx2}</p>
+                    <p>{this.props.homeData.tx3}</p>
                 </div>
                 <NavLink to='/portfolio-page/about' className='next-btn-wrp'>
                     <i className="material-icons next-button">arrow_forward</i>

@@ -136,12 +136,12 @@ const totalDataEN = {
 
     homeData : {
         lang: 'EN',
-        test: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Nulla voluptates voluptatibus, expedita amet dolor libero quam laudantium facilis.
-            Aperiam reprehenderit, saepe alias nemo maxime praesentium.
-            Architecto maiores quod nisi facere?
-            
-            `
+        hi: 'Hey!',
+        name: 'My name is Dmitry',
+        test: `I'm a beginer Front-end Web Developer based in Moscow, Russia`,
+        tx1: 'I design & build web apps and interfaces',
+        tx2: "Welcome at my portfolio page. Please take a look around!",
+        tx3: `Check out my projects or learn how to contact me`
     },
     
     portfolioData : [
