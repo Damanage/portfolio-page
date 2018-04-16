@@ -2,9 +2,7 @@ import React from 'react';
 import {NavLink} from 'react-router-dom';
 import gbr from '../img/gbr.png';
 import russia from '../img/russia.png';
-import homeLogoOne from '../img/homo-logo.jpg';
-import homeLogoTwo from '../img/home-logo2.jpg';
-
+import styles from '../data/styles.js';
 
 class Home extends React.Component {  
     
@@ -17,22 +15,16 @@ class Home extends React.Component {
     }
 
     render(){
-        let bgOne = {
-                backgroundImage: `url(${homeLogoOne})`
-            },
-            bgTwo = {
-                backgroundImage: `url(${homeLogoTwo})`
-            }
         
         return(
-            <div className="home-wrapper" style={this.props.currentLang === 'EN' ? bgOne : bgTwo}>
+            <div className="home-wrapper" style={this.props.currentLang === 'EN' ? styles.bgOne : styles.bgTwo}>
                 <div className="lang-set">
                     <span className="lang-descr">{this.props.homeData.lang}</span>
                     <div className="lang-logo">
                         <img onClick={this.props.language} src={this.props.currentLang === 'EN' ? gbr : russia} alt="img here"/>
                     </div>
                 </div>
-                <div className="home">
+                <div className="home" style={this.props.currentLang === 'EN' ? styles.gradientTwo : styles.gradientOne} >
                     <h3>{this.props.homeData.hi}</h3>
                     <p>{this.props.homeData.name}</p>
                     <p>{this.props.homeData.test}</p>

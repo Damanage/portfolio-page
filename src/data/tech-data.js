@@ -140,8 +140,8 @@ const totalDataEN = {
         name: 'My name is Dmitry',
         test: `I'm a beginer Front-end Web Developer based in Moscow, Russia`,
         tx1: 'I design & build web apps and interfaces',
-        tx2: "Welcome at my portfolio page. Please take a look around!",
-        tx3: `Check out my projects or learn how to contact me`
+        tx2: "Welcome at my portfolio page!",
+        tx3: ` Please take a look around! Check out my projects or learn how to contact me`
     },
     
     portfolioData : [
