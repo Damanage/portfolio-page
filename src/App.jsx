@@ -26,8 +26,8 @@ class App extends Component {
     this.state = {
       isMount: false,
       currentUrl: window.location.href,
-      totalData: totalDataEN,
-      currentLang: 'EN'
+      totalData: totalDataRU,
+      currentLang: 'RU'
     }
 
     this.headerStatusChange = this.headerStatusChange.bind(this);

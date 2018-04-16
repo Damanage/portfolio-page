@@ -135,8 +135,8 @@ const totalDataRU = {
         name: 'Меня зовут Дмитрий',
         test: `Я начинающий Front-end разработчик из Москвы`,
         tx1: 'Я занимаюсь дизайном, версткой и реализацией JS логики ',
-        tx2: "Welcome at my portfolio page. Please take a look around!",
-        tx3: `Check out my projects or learn how to contact me`
+        tx2: `А Вы должно быть сейчас на моей страничке-портфолио, и читаете это вступление`,
+        tx3: `Добро пожаловать!`
     },
     
     portfolioData : [
