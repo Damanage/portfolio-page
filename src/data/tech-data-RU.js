@@ -144,7 +144,7 @@ const totalDataRU = {
             id: 1,
             url: '/img/PMalibuJPG.jpg',
             caption: 'PMalibu',
-            subcaption: 'PMalibu Бюро путешествий. Таиланд.',
+            subcaption: 'Статичный Landing page для бюро путешествий. Туроператор индвидуальных туров по Азии',
             link: 'https://damanage.github.io/PMalibou/',
             code_link: 'https://github.com/Damanage/PMalibou'
         },
@@ -152,7 +152,7 @@ const totalDataRU = {
             id: 2,
             url: '/img/savannahLogoJPG.jpg',
             caption: 'Savannah Digest',
-            subcaption: 'Savannah digest demo-page',
+            subcaption: 'Страничка с разметкой новостей для колонки в еженедельнике',
             link: 'https://damanage.github.io/Savanah-Digest-Page/',
             code_link: 'https://github.com/Damanage/Savanah-Digest-Page'
         },
@@ -168,7 +168,7 @@ const totalDataRU = {
             id: 4,
             url: '/img/MyscorecardLogo.jpg',
             caption: 'MyScorecard',
-            subcaption: 'MyScorecard app. Desktop demo page',
+            subcaption: 'MyScorecard app. Desktop демо-версия дизайна для конкурса на 99design.com',
             link: 'https://damanage.github.io/myscorecard/',
             code_link: 'https://github.com/Damanage/golf/tree/master/app'
         }
